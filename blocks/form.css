@@ -34,13 +34,19 @@
   border: none;
   padding: 20px 0;
   margin-bottom: 32px;
-  background-color: #3f96f3;
+  background-color: #1878dc;
   color: #fff;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
 }
 
 .form__checkbox {
